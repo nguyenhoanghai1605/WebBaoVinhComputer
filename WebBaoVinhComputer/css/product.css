@@ -1,0 +1,226 @@
+:root {
+    --mau-chu-dao: #272e79;
+    --mau-menu: #122c51;
+    --mau-nen-san-pham: #4894ce;
+    --mau-chu: #747474;
+    --mau-noi-bat: #f9aa28;
+    --mau-border: #dde9f5;
+    --mau-trang: #ffffff;
+    --mau-den: #343a40;
+    --mau-thanh-ngang:#f2f7fd;
+}
+
+/* ... #Menu */
+
+body {
+    color: var(--mau-chu);
+}
+
+.mau {
+    color: var(--maudo);
+}
+
+/* CSS cho menu */
+nav {
+    background-color: var(--mau-menu);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* ... (CSS của bạn tiếp tục) */
+
+body {
+    color: var(--mau-chu);
+}
+
+.mau {
+
+    color: var(--maudo);
+}
+
+.hinh {
+    width: 100%;
+    height: 165px;
+}
+
+.ten-san-pham {
+
+    font-size: 13px;
+}
+
+.fix-2-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    max-height: 65px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.gia-san-pham {
+    font-size: 14px;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.gia-san-pham-cu {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.giam-gia {
+    font-size: 13px;
+    background-color: var(--mau-noi-bat);
+    color: var(--mau-den);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top: 7px;
+}
+.thanh-ngang{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    border:solid 1px var(--mau-border);
+    border-radius: 2px;
+    border-left: solid 5px var(--mau-chu-dao);
+    background-color: var(--mau-thanh-ngang);
+
+    box-shadow:1px 2px #e4e2e2;
+    size: 14px;
+    height: 35px;
+
+}
+
+/* ... (CSS của bạn ở đây) */
+
+body {
+    color: var(--mau-chu);
+}
+
+.mau {
+    color: var(--maudo);
+}
+
+/* CSS cho menu */
+nav {
+    background-color: var(--mau-menu);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* CSS cho footer */
+footer {
+    background-color: var(--mau-menu);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* ... (CSS của bạn tiếp tục) */
+
+.khuyen-mai {
+    background-color: #f9aa28;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.khuyen-mai img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.khuyen-mai-content {
+    margin-top: 15px;
+}
+
+.khuyen-mai h2 {
+    font-size: 24px;
+}
+
+.khuyen-mai p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.khuyen-mai .btn {
+    display: inline-block;
+    background-color: #272e79;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.khuyen-mai .btn:hover {
+    background-color: #122c51;
+}
+
+
+/* ------------------mobile----------------- */

@@ -1,0 +1,152 @@
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* CSS cho phân trang */
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #4894ce;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.page:hover {
+    background-color: #0056b3;
+}
+
+/* CSS cho form Lọc sản phẩm */
+#filter-form {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#filter-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#search-input,
+#min-price-input,
+#max-price-input,
+#filter-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#filter-button {
+    background-color: #4894ce;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#filter-button:hover {
+    background-color: #0056b3;
+}
+
+.giam-gia {
+    font-size: 13px;
+    background-color: var(--mau-noi-bat);
+    color: var(--mau-den);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top: -7px;
+    /* margin: auto; */
+}
+
+
+
+/* ------------------------ */
+/* CSS cho lọc sản phẩm và nút tìm kiếm sản phẩm */
+.form-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Sử dụng grid với 3 cột */
+    grid-gap: 10px; /* Khoảng cách giữa các phần tử */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* CSS cho nút tìm kiếm sản phẩm */
+#filter-button {
+    grid-column: 4 / 5; /* Đặt nút tìm kiếm vào cột thứ 4 */
+    align-self: center; /* Canh giữa theo chiều dọc */
+}
+
+/* Đặt chiều rộng cho các input */
+#search-input,
+#min-price-input,
+#max-price-input {
+    width: 100%; /* Chiều rộng 100% để điều kiện lọc và nút nằm trên cùng một hàng */
+}
+
+
+@media (max-width: 767px) {
+    .form-group {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Sử dụng grid với 3 cột */
+        grid-gap: 10px; /* Khoảng cách giữa các phần tử */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    /* CSS cho nút tìm kiếm sản phẩm */
+    #filter-button {
+        grid-column: 4 / 5; /* Đặt nút tìm kiếm vào cột thứ 4 */
+        align-self: center; /* Canh giữa theo chiều dọc */
+    }
+    
+    /* Đặt chiều rộng cho các input */
+    #search-input,
+    #min-price-input,
+    #max-price-input {
+        width: 100%; 
+    }
+
+
+
+
+    .giam-gia {
+        font-size: 13px;
+        background-color: var(--mau-noi-bat);
+        color: var(--mau-den);
+        text-align: center;
+        font-weight: bold;
+        border-radius: 2px;
+        margin-top: 5px;
+        /* margin: auto; */
+        width: 12%;
+    }
+
+
+    .xem-them-link {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #007bff;
+        padding: 8px 16px;
+        transition: background-color 0.3s ease;
+        background-color: #4894ce;
+    }
+}

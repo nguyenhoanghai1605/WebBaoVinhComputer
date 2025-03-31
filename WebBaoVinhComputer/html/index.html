@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <script>
+        $(document).ready(function () {
+            $('#myCarousel').carousel({
+                interval: 2000 // Đặt thời gian trượt ảnh là 2 giây
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="home-menu">
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Trang chủ</a></li>
+                <li><a href="../html/SanPham.html">Sản phẩm</a></li>
+                <li><a href="../html/GioiThieu.html">Giới thiệu</a></li>
+                <li><a href="../html/LienHe.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="slide-bar-img">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../image/banner/banner-0.jpg" alt="Hình ảnh 1">
+                    <div class="carousel-caption">
+                        PC WORKSTATION DUAL AMD
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../image/banner/banner-1.jpg" alt="Hình ảnh 2">
+                    <div class="carousel-caption">
+                        PC WORKSTATION DUAL EPYC
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../image/banner/banner-2.png" alt="Hình ảnh 3">
+                    <div class="carousel-caption">
+                        PC WORKSTATION DUAL VGA
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12">
+            <div class="thanh-ngang">
+                PC, WORKSTATION
+            </div>
+        </div>
+
+        <div class="col-md-12 p-0" id="product-container">
+            <!-- Danh sách sản phẩm sẽ được tạo ở đây bằng JavaScript -->
+        </div>
+
+        <!-- Thêm phần phân trang sau đây -->
+        <div class="pagination" id="pagination"></div>
+    </div>
+
+    <div>
+        <div class="khuyen-mai">
+            <img src="../image/banner/1.png" alt="Hình ảnh khuyến mãi">
+            <div class="khuyen-mai-content">
+                <h2>Chương trình khuyến mãi đặc biệt</h2>
+                <p>Giảm giá lên đến 30% cho tất cả sản phẩm. Hãy tranh thủ mua ngay!</p>
+                <a href="#" class="btn">Xem chi tiết</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Liên hệ</h3>
+                    <p>Địa chỉ:383 Quang Trung, Phường 10, Gò Vấp, TP. Hồ Chí Minh</p>
+                    <p>Email: bvcomputer@gmail.com</p>
+                    <p>Điện thoại:  090.7699.993  |  094.6700.006</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Về chúng tôi</h3>
+                    <div class="footer-ve-chung-toi">
+                        <p><a href="../html/index.html">Trang chủ của hệ thống</a></p>
+                        <p><a href="../html/SanPham.html">Sản phẩm khuyến mãi đặc biệt</a></p>
+                        <p><a href="../html/GioiThieu.html">Giới thiệu về BV PC WORKSTATION GAMING </a></p>
+                        <p><a href="../html/LienHe.html">Liên hệ và góp ý</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Bài viết</h3>
+                    <div class="footer-ve-chung-toi">
+                        <p><a href="https://hotgear.vn/blogs/news/rog-x-evangelion-2-asuka-ra-don-voi-vu-khi-rog-toi-thuong">PC ROG Gaming Asuka ra đòn với vũ khí tối thượng</a></p>
+                        <p><a href="https://nguyencongpc.vn/chi-tiet-pc-workstation-khung-dat-nhat-viet-nam-co-gia-tri-18-ty-dong">Chi tiết PC Workstation khủng đắt nhất Việt Nam có giá trị 1.8 Tỷ đồng</a></p>
+                        <p><a href="https://24hcomputer.vn/tin-cong-nghe/top-bo-pc-cau-hinh-manh-hieu-nang-khung-nam-2022.html">Top bộ PC cấu hình mạnh, hiệu năng khủng 2022</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Thêm sau phần import jQuery và Bootstrap JavaScript-->
+
+    <script>
+        productDetailsButton.addEventListener("click", function () {
+            // Thêm hành động bạn muốn thực hiện khi nút "Xem chi tiết" được nhấn
+            // Ví dụ: Mở một cửa sổ mới hoặc chuyển hướng đến trang chi tiết sản phẩm
+            alert("Xem chi tiết sản phẩm: " + product.name);
+        });
+
+    </script>
+
+    <script src="../js/pagination.js"></script>
+
+</body>
+
+</html>
